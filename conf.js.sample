@@ -1,0 +1,16 @@
+/* global module */
+module.exports = {
+    infuraApiKey: 'xxxxxxxxxxxxxxxxx',
+    localNetRpcServer: 'http://192.x.x.x:8545',
+    sshTunnel: 'http://127.0.0.1:8545',
+
+    // Path to the private key for the "fromAddr"
+    keyFile: "xxxxxxxxxxxxxxxx",
+
+    // External own accounts
+    toAddr:   '0xXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+    fromAddr: '0x0xXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+
+    // Amount for the test transaction
+    weiValue: 1
+};
